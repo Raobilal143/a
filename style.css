@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav {
+    background-color: #141414;
+    z-index: 20;
+    /* position: fixed;  */
+
+}
+
+.navbar {
+    margin-left: 80px;
+    background-color: #141414;
+    padding: 2px 5px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: white;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    /* margin-left: 10px; */
+    text-align: center;
+
+}
+
+.navbar-brand {
+    /* font-size: 1.8em; */
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-link {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #0070c9;
+}
+
+.herro {
+background-image: url('./assets/imgs/hero_apple_vision_pro__e8407ehady6i_large_2x (1).jpg');
+/* ... other styles ... */
+}
